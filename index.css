@@ -1,6 +1,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 nav{
     background-color: darkred;
@@ -10,7 +12,8 @@ nav{
     align-items: center;
 }
 nav h1{
-    font-size: 30px;
+    font-size: 20px;
+    color: burlywood;
 }
 a {
     color: burlywood;
@@ -21,7 +24,7 @@ a:hover{
     text-decoration: underline;
 }
  nav #span{
-    gap: 20px;
+   
     width: 300px;
     font-size: 20px;
     display: flex;
@@ -29,28 +32,37 @@ a:hover{
 }
 body{
     
-    background-color: navy;
-    
+   background-color: burlywood;
 }
 h1{
-    color: burlywood;
+    color:black;
 }
 #main{
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+   
+
     
 }
 #allTasks{
-   
+   background-color: orange;
+    padding-bottom: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
     
-    color: burlywood;
 }
 #completed{
+    background-color: green;
+    color: white;
+    padding-bottom: 20px;
+    margin-right: 20px;
     
-    color: burlywood;
 }
 #uncompleted{
-    
-    color: burlywood;
+    background-color: red;
+    color: white;
+    padding-bottom: 20px;
+    margin-right: 20px;
 }

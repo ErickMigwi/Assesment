@@ -7,6 +7,10 @@ completedTodos.innerHTML+=`<h1>2.All completed tasks</h1>`
 uncompletedTodos.innerHTML+=`<h1>3.All uncompleted tasks</h1>`
  fetch  ('https://dummyjson.com/todos')
  .then(res => res.json())
+ .catch(data=>{
+   console.log( alert("could not fetch data"))  
+
+ })
  .then(data =>{
     data.todos.forEach(element => {
         console.log(element)
@@ -26,7 +30,8 @@ uncompletedTodos.innerHTML+=`<h1>3.All uncompleted tasks</h1>`
             <h3>Task to be done: ${element.todo}</h3>
             <h4>is it completed:${element.completed}</h4>
             <h5>userId:${element.userId}</h5>
-            </li></div>`
+            </li>
+            </div>`
         } 
         else{
             uncompletedTodos.innerHTML+= `<div id= "uncompleted"><li>
