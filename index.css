@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    background-color: darkred;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 30px;
+}
+a {
+    color: burlywood;
+    text-decoration: none;
+}
+a:hover{
+    color:chartreuse;
+    text-decoration: underline;
+}
+ nav #span{
+    gap: 20px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    
+    background-color: navy;
+    
+}
+h1{
+    color: burlywood;
+}
+#main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#allTasks{
+   
+    
+    color: burlywood;
+}
+#completed{
+    
+    color: burlywood;
+}
+#uncompleted{
+    
+    color: burlywood;
+}
